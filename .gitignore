@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Files from theme-patternfly-org
+src/generated/**/*.js
+.cache/
+public
