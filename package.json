@@ -9,9 +9,9 @@
     "@babel/plugin-proposal-decorators": "^7.17.9",
     "@babel/preset-react": "^7.16.7",
     "@babel/preset-typescript": "^7.16.7",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "theme-patternfly-org": "^0.11.28"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "theme-patternfly-org": "link:../theme-patternfly-org"
   },
   "dependencies": {
     "@patternfly/patternfly": "4.192.1",
@@ -25,9 +25,6 @@
     "@patternfly/react-styles": "^4.56.1",
     "@patternfly/react-table": "^4.75.1",
     "@patternfly/react-virtualized-extension": "^4.53.1"
-  },
-  "resolutions": {
-    "monaco-editor": "0.21.3"
   },
   "scripts": {
     "build:docs": "theme-patternfly-org build all",

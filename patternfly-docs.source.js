@@ -1,10 +1,6 @@
 const path = require('path');
 
 module.exports = sourceMD => {
-  // Theme pages
-  const themePagesPath = require.resolve('theme-patternfly-org/package.json').replace('package.json', 'pages');
-  sourceMD(path.join(themePagesPath, '*.md'), 'pages-overview');
-
   // QuickStarts MD
   const docsPath = path.join(__dirname, 'src');
   sourceMD(path.join(docsPath, '/**/examples/**/*.md'), 'examples');
